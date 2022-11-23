@@ -1,5 +1,3 @@
-const eqArrays = require('./eqArrays');
-
 const middle = function(array) {
   let middleArray = [];
   if (array.length % 2 === 1 && array.length !== 1) {

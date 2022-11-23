@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@karen-mui/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "A clone of the lodash library made to practice creating various functions in Javascript",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/karen-mui/lotide.git"
   },
-  "author": "",
+  "author": "Karen Mui <karen_mui@hotmail.com",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/karen-mui/lotide/issues"
