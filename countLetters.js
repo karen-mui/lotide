@@ -18,6 +18,8 @@ const countLetters = function(stringInput) {
   return results;  
 }
 
+console.table(countLetters('lighthouse'));
+
 const result1 = countLetters('lighthouse');
 
 assertEqual(result1["h"], 2);

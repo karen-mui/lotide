@@ -14,10 +14,6 @@ const findKey = function(object, callback) {
   }
 }
 
-
-
-
-
 assertEqual(findKey({
   "Blue Hill": { stars: 1 },
   "Akaleri":   { stars: 3 },

@@ -18,7 +18,7 @@ const eqArrays = function(array1, array2) {
   }      
 }
 
-// const words = ["", "control", "to", "major", "tom"];
+const words = ["hi", "control", "to", "major", "tom"];
 
 const map = function(array, callback) {
   const results = [];
@@ -28,6 +28,7 @@ const map = function(array, callback) {
   return results;
 }
 
-// const results1 = map(words, word => word[0]);
-// console.log(results1);
+const results1 = map(words, word => word[0]);
+
+console.log(results1);
 

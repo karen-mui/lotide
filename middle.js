@@ -7,16 +7,17 @@ const assertArraysEqual = function(actual, expected) {
   }
 };
 
-const eqArrays = function(array1, array2) {
+function eqArrays(array1, array2) {
   let num = 0;
+  if (array1.length !== array2.length) {
+    return false;
+  }
   for (let i = 0; i < array1.length; i++) {
-    if (array1[i] === array2[i]) {  
-    num++;
+    if (array1[i] !== array2[i]) {
+      return false;
     }
   }
-  if (num === array1.length && num === array2.length) {
-    return true;
-  }      
+  return true;
 }
 
 // ACTUAL FUNCTION
@@ -36,4 +37,4 @@ const middle = function(array) {
 }
 
 // TEST CODE
-console.log(middle([1, 1, 1]))
+console.log(middle([5, 1, 1]))
